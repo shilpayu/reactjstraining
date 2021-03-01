@@ -1,0 +1,10 @@
+.messageContainer{
+    background-color: aquamarine;
+}
+.message{
+    font-size: 20px;
+    font-weight: 600;
+}
+button {
+    margin-right: 10px;
+}

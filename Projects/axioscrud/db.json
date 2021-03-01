@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "first_name": "Shilpa",
+      "last_name": "Y U",
+      "email": "shilpayu7@gmail.com"
+    },
+    {
+      "id": "2",
+      "first_name": "Pavana",
+      "last_name": "N R",
+      "email": "pavana@gmail.com"
+    },
+    {
+      "id": "3",
+      "first_name": "Pooja",
+      "last_name": "P",
+      "email": "pooja@techinflo.com"
+    },
+    {
+      "id": "4",
+      "first_name": "Divya",
+      "last_name": "P",
+      "email": "divya@gmail.com"
+    }
+  ]
+}

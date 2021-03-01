@@ -1,0 +1,18 @@
+https://github.com/kavitagupta972/learn-react/tree/master/routedemo
+https://github.com/kavitagupta972/learn-react/tree/master/routedemo/src
+
+Api - https://www.googleapis.com/books/v1/volumes?q=isbn:0345535529
+
+const getRecords = (isbnNum = null) => { console.log('Get Records'); 
+const results = fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbnNum}`) .then(response => response.json()); return results;}
+
+
+0345535529 - Game of Throns
+
+1101965487 - Book
+
+0007477155  - Boo
+
+https://2z3oy.csb.app/
+
+https://fortnite-api.theapinetwork.com/upcoming/get

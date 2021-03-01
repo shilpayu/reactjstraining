@@ -1,0 +1,132 @@
+1. create react project Command
+npx create-react-app demoproj
+
+2.https://github.com/kavitagupta972/es6-demo.git
+3.create a file in command prompt
+echo> calculator.js
+
+4.Node demo of npm 
+npm -v => version of node js
+npm init -> enter package name,version  and all then enter
+5.https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf
+https://raygun.com/blog/solid-design-principles/
+https://www.youtube.com/watch?v=nVZE53IYi4w
+https://www.youtube.com/watch?v=llGgO74uXMI
+https://www.youtube.com/watch?v=dxzBZpzzzo8
+https://www.youtube.com/watch?v=gKq2AWPBx9M&t=1443s // single page app
+
+
+6. Props is the shorthand for Properties in React. They are read-only components which must be kept pure i.e. immutable. They are always passed down from the parent to the child components throughout the application. A child component can never send a prop back to the parent component. 
+This help in maintaining the unidirectional data flow and are generally used to render the dynamically generated data.
+
+7. {flag && btnNames.map( (btnName) => {
+       
+return <button key = {btnName} className={btnName} 
+        
+onClick={buttonClickEventHandler}>{btnName}</button>
+    })}
+
+8.
+https://github.com/kavitagupta972/learn-react/tree/master/routedemo
+https://github.com/kavitagupta972/learn-react/tree/master/routedemo/src
+
+Api - https://www.googleapis.com/books/v1/volumes?q=isbn:0345535529
+
+const getRecords = (isbnNum = null) => { console.log('Get Records'); 
+const results = fetch(`https://www.googleapis.com/books/v1/volumes?q=isbn:${isbnNum}`) .then(response => response.json()); return results;}
+
+
+0345535529 - Game of Throns
+
+1101965487 - Book
+
+0007477155  - Boo
+
+https://2z3oy.csb.app/
+
+https://fortnite-api.theapinetwork.com/upcoming/get
+
+
+
+
+9. article on axios 
+https://medium.com/@kavitagupta972/axios-api-integration-860c427a7622
+
+
+10.npm i axios
+?  
+
+json-server --watch db.json
+
+
+[
+  {
+    "id": "1",
+    "first_name": "Kavita",
+    "last_name": "Gupta",
+    "email": "kavitagupta972@gmail.com"
+  },
+  {
+    "id": "2",
+    "first_name": "Kavita1",
+    "last_name": "Gupta1",
+    "email": "kavitagupta9721@gmail.com"
+  },
+  {
+    "id": "3",
+    "first_name": "Kavita2",
+    "last_name": "Gupta2",
+    "email": "kavitagupta972@gmail.com"
+  }
+]
+
+11. https://mindmajix.com/reactjs-interview-questions
+
+12 . whole React : https://github.com/kavitagupta972/learn-react
+13 reactstrap
+
+<Table>
+            <thead>
+            <tr>
+                <th>id</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            {employees.map((e) => (
+                <tr>
+                <td >{e.id}</td>
+                <td>{e.first_name}</td>
+                <td>{e.last_name}</td>
+                <td>{e.email}</td>
+                </tr>
+            ))}
+            </tbody>
+      </Table>
+
+
+14
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+15. npm install netlify-cli -g
+netlify deploy
+netlify deploy --prod
+
+
+15.https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367
+
+
+Redux
+16 add redux into chrome
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+firefox
+https://addons.mozilla.org/en-US/firefox/addon/reduxdevtools/
+
+16. npmjs.com
+npm install redux react-redux
+https://github.com/zalmoxisus/redux-devtools-extension#installation
+17. when your component’s state or props change, your component will re-render. If your render() method depends on some other data, you can tell React that the component needs re-rendering by calling forceUpdate().
+https://reactjs.org/docs/react-component.html#forceupdate
+
+18. https://github.com/kavitagupta972/bootstraps-demo

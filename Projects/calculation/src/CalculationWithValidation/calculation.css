@@ -1,0 +1,27 @@
+/* .pbtn{
+    margin-right: 10px;
+} */
+.left {
+    width: 43%;
+    float: left;
+    text-align: right;
+    margin-top: 25px;
+}
+.right {
+    width: 21%;
+    margin-left: 10px;
+    float: left;
+    margin: 10px;
+}
+.MuiSelect-outlined.MuiSelect-outlined {
+    padding-right: 182px !important;
+}
+.btnleft {
+    width: 53%;
+    float: left;
+    text-align: right;
+}
+.btnright {
+    width: 8%;
+    float: left;
+}
